@@ -71,6 +71,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
-        android:text="SEARCH"
-        android:onClick="searchfiledetails"/>
+        android:text="SEARCH" />
 </RelativeLayout>

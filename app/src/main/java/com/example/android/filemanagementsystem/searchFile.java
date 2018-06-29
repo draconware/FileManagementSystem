@@ -12,8 +12,4 @@ public class searchFile extends AppCompatActivity {
         setContentView(R.layout.activity_search_file);
     }
 
-    public void searchfiledetails(){
-        Intent i = new Intent(this,searchFiledetails.class);
-        startActivity(i);
-    }
 }
