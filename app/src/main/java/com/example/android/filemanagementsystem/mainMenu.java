@@ -42,6 +42,10 @@ public class mainMenu extends AppCompatActivity
         Intent i = new Intent(this,addfiledetails.class);
         startActivity(i);
     }
+    public void searchfile(View v){
+        Intent i = new Intent(this,searchFile.class);
+        startActivity(i);
+    }
 
     @Override
     public void onBackPressed() {

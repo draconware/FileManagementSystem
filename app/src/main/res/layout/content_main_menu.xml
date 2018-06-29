@@ -25,7 +25,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="214dp"
-        android:text="Search File" />
+        android:text="Search File"
+        android:onClick="searchfile"/>
     <FrameLayout
         android:id = "@+id/mainmenupage"
         android:layout_height="match_parent"
