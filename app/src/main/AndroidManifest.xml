@@ -28,7 +28,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".addfiledetails" />
         <activity android:name=".addresult" />
-        <activity android:name=".searchFile"></activity>
+        <activity android:name=".searchFile" />
+        <activity android:name=".searchFiledetails"></activity>
     </application>
 
 </manifest>
