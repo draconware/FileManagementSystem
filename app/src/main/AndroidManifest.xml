@@ -29,6 +29,7 @@
         <activity android:name=".addfiledetails" />
         <activity android:name=".addresult" />
         <activity android:name=".searchFile" />
+        <activity android:name=".SearchFileList"></activity>
     </application>
 
 </manifest>

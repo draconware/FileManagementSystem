@@ -15,7 +15,10 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="163dp"
         android:text="File ID :"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:id="@+id/textView8"
@@ -71,5 +74,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
-        android:text="SEARCH" />
+        android:text="SEARCH"
+        android:onClick="searchfiletab"
+        tools:ignore="OnClick" />
 </RelativeLayout>

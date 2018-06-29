@@ -12,4 +12,9 @@ public class searchFile extends AppCompatActivity {
         setContentView(R.layout.activity_search_file);
     }
 
+    public void searchfiletab(){
+        Intent i = new Intent(this,SearchFileList.class);
+        startActivity(i);
+    }
+
 }
