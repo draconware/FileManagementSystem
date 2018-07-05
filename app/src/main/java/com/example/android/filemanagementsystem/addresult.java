@@ -20,9 +20,9 @@ public class addresult extends AppCompatActivity {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
     //    SharedPreferences.Editor sharedPreferenceseditor = sharedPreferences.edit();
 
-        fileid = sharedPreferences.getString("fileid","Not Available");
-        filename = sharedPreferences.getString("filename","Not Available");
-        department = sharedPreferences.getString("filedepartment","Not Available");
+        fileid = sharedPreferences.getString("addfileid","Not Available");
+        filename = sharedPreferences.getString("addfilename","Not Available");
+        department = sharedPreferences.getString("addfiledepartment","Not Available");
         holder = sharedPreferences.getString("user","Not Available");
 
         textView1 = (TextView)findViewById(R.id.textViewfileid);

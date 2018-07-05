@@ -29,7 +29,8 @@
         <activity android:name=".addfiledetails" />
         <activity android:name=".addresult" />
         <activity android:name=".searchFile" />
-        <activity android:name=".SearchFileList"></activity>
+        <activity android:name=".SearchFileList" />
+        <activity android:name=".ChangeLocation"></activity>
     </application>
 
 </manifest>

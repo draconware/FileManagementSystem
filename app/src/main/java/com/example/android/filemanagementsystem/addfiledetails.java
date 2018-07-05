@@ -67,17 +67,10 @@ public class addfiledetails extends AppCompatActivity {
 
         final String username = sharedPreferences.getString("user","Not Available");
 
-        sharedpreferenceseditor.putString("fileid",fileid);
-        sharedpreferenceseditor.putString("filename",filename);
-        sharedpreferenceseditor.putString("filedepartment",department);
+        sharedpreferenceseditor.putString("addfileid",fileid);
+        sharedpreferenceseditor.putString("addfilename",filename);
+        sharedpreferenceseditor.putString("addfiledepartment",department);
         sharedpreferenceseditor.commit();
-
-        String x1 = sharedPreferences.getString("fileid","Not Available");
-        String x2 = sharedPreferences.getString("filename","Not Available");
-        String x3 = sharedPreferences.getString("filedepartment","Not Available");
-        Log.i("fileid",x1);
-        Log.i("filename",x2);
-        Log.i("filedepartment",x3);
 
         progressDialog.setMessage("Adding file details...");
         progressDialog.show();
