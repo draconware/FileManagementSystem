@@ -16,7 +16,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp">
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
         <EditText
+            android:drawableLeft="@drawable/ic_username"
             android:id="@+id/logineditTextusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,8 +30,15 @@
             android:layout_marginTop="15dp"
             android:hint="Username"
             android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
         <EditText
+            android:drawableLeft="@drawable/ic_lock"
             android:id="@+id/logineditTextpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,7 +46,7 @@
             android:layout_marginTop="30dp"
             android:hint="Password"
             android:inputType="textPassword" />
-
+        </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/loginbuttonlogin"
