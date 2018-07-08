@@ -6,19 +6,24 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".mainMenu"
-    tools:showIn="@layout/app_bar_main_menu">
-
+    tools:showIn="@layout/app_bar_main_menu"
+    android:background="@drawable/grad1">
     <Button
-
         android:id="@+id/buttonAddfile"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="174dp"
+        android:drawableStart="@drawable/ic_add"
         android:drawableLeft="@drawable/ic_add"
+        android:background="@drawable/tv"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:text="add file"
-        android:onClick="addfile"/>
+        android:gravity="center"
+        android:onClick="addfile"
+        />
 
     <Button
         android:id="@+id/buttonSearchfile"
@@ -27,9 +32,15 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="214dp"
+        android:drawableStart="@drawable/ic_search"
         android:drawableLeft="@drawable/ic_search"
+        android:background="@drawable/tv"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
         android:text="Search File"
-        android:onClick="searchfile"/>
+        android:onClick="searchfile"
+        />
     <FrameLayout
         android:id = "@+id/mainmenupage"
         android:layout_height="match_parent"

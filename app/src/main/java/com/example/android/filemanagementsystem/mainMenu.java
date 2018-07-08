@@ -88,13 +88,6 @@ public class mainMenu extends AppCompatActivity
 
         if (id == R.id.nav_profile) {
 
-        } else if (id == R.id.nav_menu) {
-            fragment = new mainMenufragment();
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
-            fragmentTransaction.replace(R.id.mainmenupage,fragment);
-            fragmentTransaction.commit();
         } else if (id == R.id.nav_logout) {
             fragment = new loginpageFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
