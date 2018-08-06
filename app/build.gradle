@@ -9,6 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [HOCKEYAPP_APP_ID: "a00cb0fa659b418997212e23621dd95c"]
     }
     buildTypes {
         release {
@@ -46,4 +47,5 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.0'
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+    implementation 'net.hockeyapp.android:HockeySDK:5.1.0'
 }

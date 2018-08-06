@@ -31,6 +31,7 @@
         <activity android:name=".searchFile" />
         <activity android:name=".SearchFileList" />
         <activity android:name=".ChangeLocation"></activity>
+        <meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="${HOCKEYAPP_APP_ID}" />
     </application>
 
 </manifest>
